@@ -21,7 +21,7 @@ Checkbox_label2.click()
 time.sleep(2)
 
 
-
+  
 old_height=driver.execute_script("return document.body.scrollHeight")  # for require loop
 while True:
   driver.find_element(by=By.XPATH,value='//*[@id="app"]/main/div[1]/div[2]/div[3]')

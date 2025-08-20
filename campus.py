@@ -17,7 +17,7 @@ time.sleep(50)
 driver.get("https://learnwith.campusx.in/courses/Data-Science-Master-Program-63a30827e4b0c0f22f756324")
 time.sleep(5)
 
-link = driver.find_element(By.XPATH, '/html/body/div[1]/header/section[2]/a[8]')
+link = driver.find_element(By.XPATH, '/html/body/div[1]/header/section[2]/a[1]')
 link.click()
 
 time.sleep(10)

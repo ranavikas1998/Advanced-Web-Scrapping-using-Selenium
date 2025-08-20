@@ -34,7 +34,7 @@ while True:
 
 html=driver.page_source
 
-####3--this code is save/load the html file
+####--this code is save/load the html file
 with open("ajio.html","w",encoding="utf-8") as f:
     f.write(html)
 
